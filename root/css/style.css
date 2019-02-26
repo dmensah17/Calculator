@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* gradient code borrowed from uigradients.com */
+    background: #67B26F; 
+    background: -webkit-gradient(linear, left top, left bottom, from(#4ca2cd), to(#67B26F)); 
+    background: linear-gradient(to bottom, #4ca2cd, #67B26F); 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    
+}
+
+
+form{
+    display: block;
+    margin: 100px auto;
+
+    
+}
+
+table{
+    display: block;
+    margin: 0 auto;    
+    width: 280px;
+    height: 350px;
+    border-collapse: separate;
+      
+    
+    
+}
+
+/* table border-radius fix by Jamie Munro */
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+table tr:first-child td:first-child {
+    border-top-left-radius: 20px;
+}
+
+table tr:first-child td:last-child {
+    border-top-right-radius: 20px;
+}
+
+tbody{
+    /* gradient code borrowed from uigradients.com */    
+    background: #43C6AC;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F8FFAE), to(#43C6AC));
+    background: linear-gradient(to bottom, #F8FFAE, #43C6AC); 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    opacity: 0.7;
+    -webkit-box-shadow: 10px 10px 139px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 139px 0px rgba(0,0,0,0.75);  
+    border-radius: 20px;
+}
+
+input:focus{
+    outline: none; 
+}
+
+
+
+#display{
+    width: 310px;
+    height: 80px;
+    display: block;
+    border-width:0px;
+    border-bottom: .5px solid #FDFFF6;    
+    
+}
+
+#screen input[type=text]{
+    text-align: right;
+    padding-right: 10px;
+    font-size: 400%;
+}
+
+
+
+input{
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    font-size: 200%;
+    color: #FDFFF6; 
+    
+}
+
+input[type="button"]{
+    padding: 20px 25px;
+    background: none; 
+    border:0 none;
+    cursor:pointer;
+}
+
+#div{
+    font-size: 210%;
+}
+
